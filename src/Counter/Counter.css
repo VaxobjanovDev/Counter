@@ -1,0 +1,159 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 15rem 42%;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  position: absolute;
+  top: 18%;
+  left: 45%;
+}
+
+.egg {
+  color: #fff;
+  border: 10px solid #4adaff;
+  display: block;
+  width: 200px;
+  height: 275px;
+  background-color: #14141e;
+  border-radius: 40% 40% 50% 50% / 30% 30% 70% 70%;
+}
+
+.counter-heading {
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.counter-heading h1 {
+  margin: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.counter-heading span {
+  font-size: 1rem;
+}
+
+.input {
+  font-family: "Nova Square", cursive;
+  font-size: 1.3rem;
+  outline: none;
+  text-align: end;
+  border-radius: 5px;
+  border: 2px solid #a6a8b7;
+  width: 80%;
+  background-color: #626576;
+}
+
+.input_active {
+  font-family: "Nova Square", cursive;
+  font-size: 1.3rem;
+  outline: none;
+  text-align: end;
+  border-radius: 5px;
+  border: 2px solid #a6a8b7;
+  width: 80%;
+  background-color: #4adaff;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons h6 {
+  font-size: 0.8rem;
+  margin: 12px 0 4px 0;
+  font-weight: 700;
+  font-family: "Zen Antique Soft", serif;
+}
+
+.left,
+.right {
+  padding: 0 1rem;
+}
+
+.button-circle {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #3ddbff;
+  border: none;
+  height: 2rem;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.big-button {
+  position: relative;
+}
+
+.char {
+  position: absolute;
+  top: 19%;
+  left: 34%;
+  transform: rotate(-35deg);
+}
+
+.char1 {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  transform: rotate(-20deg);
+}
+
+.char2 {
+  position: absolute;
+  top: 10%;
+  left: 47%;
+}
+.char3 {
+  position: absolute;
+  top: 12%;
+  left: 54%;
+  transform: rotate(15deg);
+}
+
+.char4 {
+  position: absolute;
+  top: 18%;
+  left: 60.5%;
+  transform: rotate(30deg);
+}
+
+.big-circle {
+  cursor: pointer;
+  margin-top: 2.8rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #3ddbff;
+  border: none;
+  height: 3.5rem;
+  border-radius: 50%;
+  width: 3.5rem;
+}
+
+.rotate h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Zen Antique Soft", serif;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 45% 20%;
+  }
+}
+@media (min-width: 400px) and (max-width: 576px) {
+  .container {
+    margin: 45% 30%;
+  }
+}
