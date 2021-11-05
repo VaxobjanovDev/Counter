@@ -1,3 +1,6 @@
+#Simple-Counter-App 
+This is simple app made using Reactjs And you can see this simle app https://tailly-counter-apps.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
